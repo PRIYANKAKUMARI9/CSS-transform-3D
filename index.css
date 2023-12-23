@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+      
+      padding: 50px;
+      background-color: rgb(64, 95, 95);
+
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 1rem;
+}
+
+.item{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 102, 0);
+    
+    border: 5px solid rgb(23, 230, 15);
+}
+
+
+#rotateX:hover{
+    transform: rotate(45deg);
+}
+#rotateY:hover{
+    transform: rotate(-45deg);
+}
+
+
+#TranslateX:hover{
+    transform: translate(100px);
+}
